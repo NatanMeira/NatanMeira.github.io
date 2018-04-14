@@ -1,2 +1,8 @@
 h1{color:blue;
+   border-style:solid;
+   width:1300px;
+   text-align:center;
+   padding:2cm;
+   margin:0;
 }
+#menu{border-style:solid;}
