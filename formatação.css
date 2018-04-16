@@ -1,8 +1,30 @@
-h1{color:blue;
+* {
+	margin: 0;
+	padding: 0;
+}
+h1{color:black;
    border-style:solid;
    width:1300px;
    text-align:center;
-   padding:2cm;
-   margin:0;
+   padding:1cm;
+   margin:0cm;
+   background-color:blue;
+   font-size:100px; 
 }
-#menu{border-style:solid;}
+ul{list-style-position: inside;}
+#esquerda{
+	float:left;
+	background-color:red;
+	border-style:solid;
+	margin-left:1cm;
+
+}
+
+#direita{
+	float:right;
+	background-color:yellow
+}
+
+#centro{
+	background-color:green
+}
