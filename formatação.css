@@ -28,18 +28,24 @@ body{
 	background-color:#80bfff;
 	border-style:inset;
 	border-color: #0073e6;
-	margin-left:0.5cm;
+	margin-left:0.3cm;
 	margin-right: 0.5cm;
 	list-style-position: inside;
 	width:16%;
-	height:300px;
-	padding:0.5cm;
+	height:200px;
+	padding:0.2cm;
 }  
 #menu li{
-	padding-top: 0.5cm;
+	padding-top: 0.3cm;
 }
 
-
+/*Centro*/
+#centro {
+	background-color:;
+	width:60%;
+    border-style:;
+    margin-left:20%;
+}
 
 /*Direita*/
 #direita{
@@ -47,7 +53,3 @@ body{
 	background-color:
 }
 
-/*Centro*/
-#centro {
-	background-color:
-}
