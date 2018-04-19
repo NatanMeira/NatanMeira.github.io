@@ -2,29 +2,52 @@
 	margin: 0;
 	padding: 0;
 }
-h1{color:black;
-   border-style:solid;
-   width:1300px;
-   text-align:center;
-   padding:1cm;
-   margin:0cm;
-   background-color:blue;
-   font-size:100px; 
+body{
+	background-color: #cce6ff;
+	font-family: Arial;
 }
-ul{list-style-position: inside;}
+
+/*Cabeçalho*/
+#cabecalho{
+	text-align:center;
+	background-color:#003366;
+}
+#cabecalho h1{
+	letter-spacing: 0.8cm;
+	font-family: Impact;
+	font-size: 2.5cm;
+	padding-top:1cm;
+}
+#cabecalho h2{
+	padding-bottom:1cm;
+}
+
+/*Esquerda*/
 #esquerda{
 	float:left;
-	background-color:red;
-	border-style:solid;
-	margin-left:1cm;
-
+	background-color:#80bfff;
+	border-style:inset;
+	border-color: #0073e6;
+	margin-left:0.5cm;
+	margin-right: 0.5cm;
+	list-style-position: inside;
+	width:16%;
+	height:300px;
+	padding:0.5cm;
+}  
+#menu li{
+	padding-top: 0.5cm;
 }
 
+
+
+/*Direita*/
 #direita{
 	float:right;
-	background-color:yellow
+	background-color:
 }
 
-#centro{
-	background-color:green
+/*Centro*/
+#centro {
+	background-color:
 }
