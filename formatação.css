@@ -3,54 +3,58 @@
 	padding: 0;
 }
 body{
-	background-color: #D4F7EC;
+	background-color: #E2F6FE;
 	font-family: Arial;
 }
+a{text-decoration: none;}
 
-/*Cabeçalho*/
+/*=============Cabeçalho=============*/
 #cabecalho{
 	text-align:center;
-	background-color:#448D76;
+	background-color:#327893;
 }
 #cabecalho h1{
 	letter-spacing: 0.8cm;
 	font-family: Impact;
 	font-size: 2.5cm;
 	padding-top:1cm;
-	color:#090934;
+	color:#110932;
 }
 #cabecalho h2{
 	padding-bottom:1cm;
-	color:#2E2FE3;
+	color:#2C2259;
 }
 
-/*Esquerda*/
+/*=============Esquerda=============*/
 #esquerda{
 	float:left;
-	background-color:#090934;
-	border-style:inset;
-	border-color: #0073e6;
-	margin-left:0.3cm;
-	margin-right: 0.5cm;
-	list-style-position: inside;
 	width:16%;
 	height:200px;
+	margin:0 0 0 0.3cm;
+	color:#110932;
 	padding:0.2cm;
-	color:white;
+	background-color:#95C7DB;
+	border-style:double;
+	border-color: #110932;
+	border-width: 5px;
+	list-style-position: inside;
 }  
 #menu li{
 	padding-top: 0.3cm;
 }
 
-/*Centro*/
+/*=============Centro=============*/
 #centro {
-	background-color:;
+	font-family:Roboto Slab;
 	width:60%;
-    border-style:;
-    margin-left:20%;
-}
+	margin:0 0 0 19%;
+	background-color:#D2F1FE;
 
-/*Direita*/
+	padding: 0.3cm;    
+}
+#centro h1{}
+
+/*=============Direita=============*/
 #direita{
 	float:right;
 	background-color:
