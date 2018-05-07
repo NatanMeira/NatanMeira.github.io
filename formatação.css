@@ -7,6 +7,7 @@ body{
 	font-family: Arial;
 }
 a{text-decoration: none;}
+a:visited{}
 
 /*=============Cabeçalho=============*/
 #cabecalho{
@@ -29,7 +30,7 @@ a{text-decoration: none;}
 #esquerda{
 	float:left;
 	width:16%;
-	height:200px;
+	height:230px;
 	margin:0 0 0 0.3cm;
 	color:#110932;
 	padding:0.2cm;
@@ -38,6 +39,7 @@ a{text-decoration: none;}
 	border-color: #110932;
 	border-width: 5px;
 	list-style-position: inside;
+	background-attachment: scroll;
 }  
 #menu li{
 	padding-top: 0.3cm;
