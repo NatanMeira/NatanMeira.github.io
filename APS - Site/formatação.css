@@ -7,10 +7,7 @@ body{
 	font-family: Arial;
 }
 a{text-decoration: none;}
-a:visited{color:#110932;}
-a:link{}
-a:hover{}
-a:active{}
+a:visited{}
 
 /*=============Cabeçalho=============*/
 #cabecalho{
@@ -18,17 +15,22 @@ a:active{}
 	background-color:#327893;
 }
 #cabecalho h1{
-	letter-spacing: 0.1cm;
+	letter-spacing: 0.8cm;
 	font-family: Impact;
 	font-size: 2.5cm;
 	padding-top:1cm;
 	color:#110932;
 }
+#cabecalho h2{
+	padding-bottom:1cm;
+	color:#2C2259;
+}
+
 /*=============Esquerda=============*/
 #esquerda{
 	float:left;
 	width:16%;
-	height:130px;
+	height:230px;
 	margin:0 0 0 0.3cm;
 	color:#110932;
 	padding:0.2cm;
@@ -52,3 +54,10 @@ a:active{}
 	padding: 0.3cm;    
 }
 #centro h1{}
+
+/*=============Direita=============*/
+#direita{
+	float:right;
+	background-color:
+}
+
