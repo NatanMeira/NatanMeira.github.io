@@ -7,7 +7,9 @@ body{
 	font-family: Arial;
 }
 a{text-decoration: none;}
-a:visited{}
+a:visited{color:#110932;}
+a:link{color:#110932;}
+li:hover{background-color:#D2F1FE}
 
 /*=============Cabeçalho=============*/
 #cabecalho{
@@ -42,8 +44,14 @@ a:visited{}
 }  
 #menu li{
 	padding-top: 0.3cm;
+	font-size: 22px;
+	font-weight: bold;
 }
-
+#menu h1{
+	letter-spacing:0.1cm;
+	font-size: 25px;
+	padding-left: 0.4cm
+}
 /*=============Centro=============*/
 #centro {
 	font-family:Roboto Slab;
