@@ -39,6 +39,7 @@ a:visited{}
 	border-color: #110932;
 	border-width: 5px;
 	list-style-position: inside;
+	background-attachment: scroll;
 }  
 #menu li{
 	padding-top: 0.3cm;
