@@ -3,7 +3,7 @@
 	padding: 0;
 }
 body{
-	background-color: #E2F6FE;
+	background-color: #DCF5DB;
 	font-family: Arial;
 }
 a{text-decoration: none;}
@@ -15,24 +15,25 @@ li:hover{background-color:#D2F1FE}
 /*=============Cabeçalho=============*/
 #cabecalho{
 	text-align:center;
-	background-color:#327893;
+	background-color:#266882;
+	border-style: solid none solid none;
 }
 #cabecalho h1{
 	letter-spacing: 0.3cm;
-	font-family: Impact;
+	font-family: Cooper Black;
 	font-size: 2.5cm;
 	padding:0.5cm 0 0.5cm 0;
-	color:#110932;
+	color:#00071A;
 }
 /*=============Esquerda=============*/
 #esquerda{
 	float:left;
 	width:16%;
-	height:50px;
+	height:45px;
 	margin:0 0 0 0.3cm;
 	color:#110932;
 	padding:0.2cm;
-	background-color:#95C7DB;
+	background-color:#8FBCAD;
 	border-style:double;
 	border-color: #110932;
 	border-width: 5px;
@@ -49,8 +50,12 @@ li:hover{background-color:#D2F1FE}
 	font-family:Roboto Slab;
 	width:60%;
 	margin:0 0 0 19%;
-	background-color:#D2F1FE;
+	background-color:#C0EDBF;
 
 	padding: 0.3cm;    
 }
-#centro h1{}
+#centro h1{
+	font-size:25px;
+	font-family:Cooper Black;
+	padding-top: 0.5cm;
+}
