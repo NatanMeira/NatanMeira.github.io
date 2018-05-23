@@ -79,4 +79,15 @@ a:link{color:#110932;}
 	padding-left: 0.3cm;
 	font-size: 20px;
 }
-
+#centro h2{
+	padding-top: 0.5cm;
+}
+#centro h3{
+	padding-top: 0.5cm;
+	font-weight: bold;
+	font-size: 23px;
+}
+#noticia p{
+	font-size: 18px;
+	padding-top:-10cm;
+}
